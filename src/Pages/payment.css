@@ -1,0 +1,29 @@
+.payinputs input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    /* text-align: center; */
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+}
+.payment{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.payinputs .line1{
+    display: inline;
+    
+    width: 100px;
+    margin: 30px;
+}
+.btn{
+    margin-left: 150px;
+    gap: 5px;
+    margin-top: 20px;
+ 
+}

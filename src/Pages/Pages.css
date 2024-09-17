@@ -1,0 +1,80 @@
+/* .container-fluid{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   text-align: center;
+  
+} */
+
+.container-fluid li{
+    list-style: none;
+    margin: 20px;
+    text-decoration: none;
+}
+.container-fluid Link li {
+    text-decoration-line: none;
+
+}
+.container-fluid h6{
+    color: rgb(148, 9, 148);
+}
+.container-fluid .deletelink{
+    text-decoration: none;
+}
+.container-fluid li{
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+    text-underline-offset: 0px;
+}
+
+.mee-index{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.sort p span{
+    font-weight: 600;
+
+}
+.sort .sort-icon{
+    width: 10px;
+    height: 10px;
+}
+
+
+
+.mee-products{
+    margin: 10px  170px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 200px;
+    column-gap: 20px;
+   
+    
+    
+   
+}
+.mee-cate{
+    margin-left: 300px;
+    gap: 20px;
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 220px;
+    height: 60px; */
+    border-radius: 50px;
+    background-color: lightgray;
+    font-weight: 800px;
+    color: black;
+    font-size: 20px;
+}

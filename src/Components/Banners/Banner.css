@@ -1,0 +1,333 @@
+
+
+/* header{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    padding: 15px 0px;
+} */
+ /* .container-fluid{
+    padding: 0px 45px;
+    text-align: center;
+}  */
+header .headerSearch{
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 15px;
+} 
+/* nav .border{
+    background-color: light white;
+     border: 1px lightgray;
+     border-left:0px;
+      border-right: 0px;
+      opacity: 0.5;
+      height: 20px;
+    } */
+header .headerSearch input{
+    width: 100%;
+     height: 40px; 
+     border: 0px; 
+     outline: none;
+      font-size:15px;
+    }
+.icon{
+   top: 30px;
+    opacity: 0.5;
+}
+
+
+.bar{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    /* border-top: 0px; */
+    opacity: 0.5;
+    text-align: center;
+   
+   padding: 5px;
+   display: flex;
+
+   
+}
+.container{
+    display: flex;
+    margin-left: 350px;
+   padding: 60px;
+    
+}
+
+
+
+.banner{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    /* margin: 50px; */
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    background-color: rgb(243, 243, 247);
+    border-style: none;
+    border-radius: 5px;
+    
+   
+}
+
+.banner .background{
+    opacity: 0.6;
+}
+.supp{
+   margin: 15px;
+   display: flex;
+   /* line-height: 10px; */
+   opacity: 0.6;
+   gap: 10px;
+   
+}
+.app{
+    display:flex;
+    gap: 20px;
+}
+.para{
+    margin: 35px;
+}
+.card{
+    
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    margin: 20px;
+    justify-content: center;
+}
+.symbol{
+    /* margin-top: 15px;
+    margin-left: 10px;
+    border: 1 solid black; */
+    width: 50px;
+    height: 50px;
+    margin-top: 10PX;
+}
+.symbol1{
+    /* margin-top: 15px;
+    margin-left: 10px;
+    border: 1 solid black; */
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+.pro{
+    display: inline;
+}
+.bigbanar{
+    width: 80%;
+    height: 400px;
+    border: 1px solid black;
+    border: none;
+    margin: 20px;
+    margin-left: 150px;
+    background-color:  rgb(65, 6, 65);
+    border-radius: 5px;
+}
+.currency{
+    margin-top: 15px;
+}
+.event{
+    margin-top: 15px;
+}
+.card2{
+    width: 70%;
+    height: 50px;
+    background-color: darkmagenta;
+    border: 1px solid black;
+    border: none;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
+.card2 a{
+    
+    color:white;
+    font-size: 20px;
+    
+
+}
+.card2 li {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 7px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+.card2 li a{
+    text-decoration: none;
+
+}
+.pp1{
+    width: 500px;
+    height: 400px;
+}
+.file{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.tag1{
+    margin: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+   padding: 5px;
+}
+.tag2{
+    margin: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+   padding: 5px;
+
+}
+.tag3{
+    margin: 10px;
+    
+}
+.banarcard{
+    width: 30%;
+    height: 320px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px;
+  margin-top: 5px;
+}
+.tag11{
+    display:flex ;
+    margin: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+  padding-right: 10px;
+   gap: 5px;
+   margin-left: 2px;
+}
+.tag22{
+    display:flex ;
+    margin: 5px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+   padding: 5px;
+   padding-right: 10px;
+   margin-left: 0px;
+}
+.tag33{
+    display:flex ;
+    margin: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+   padding: 5px;
+   padding-right: 10px;
+   margin-left: 0px;
+}
+.update{
+    margin-top: 15px;
+    gap: 1px;
+}
+.banarcard2{
+    width: 120%;
+    height: 300px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+.text{
+    text-align: center;
+    color: darkred;
+}
+.women{
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+}
+.fashion{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.meelogo{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.womepic{
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid black;
+
+}
+.kid{
+    margin: 10px;
+}
+.play{
+    width: 10%;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.banner2{
+    width: 80%;
+    height: 400px;
+    border: 1px solid black;
+    border: none;
+    margin: 20px;
+    margin-left: 150px;
+    background-color:  rgb(65, 6, 65);
+    border-radius: 5px;
+}
+.ess{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 300;
+}
+.vv{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.homd{
+display: inline-block;
+flex-direction: row; 
+margin-left: 30px;
+margin-bottom: 50px;
+
+}
+.lady{
+    width: 1080px;
+    height: 400px;
+    margin-left: 150px;
+}
+.manb{
+    width: 900px;
+    height: 400px;
+    
+    margin-left: 150px;
+    gap: 10px;
+}
+.meeeb{
+    width: 82%;
+    height: 500px;
+    margin-left: 135px;
+}
+
+.banner .banner_icon1{
+
+}

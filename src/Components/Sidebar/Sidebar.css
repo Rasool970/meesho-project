@@ -1,0 +1,137 @@
+/* .sidebar{
+    width: 25%;
+    position: fixed;
+    height: 100%;
+   z-index: 3;
+   
+   flex-direction: column;
+   align-items: center;
+   
+   margin-left: 30px;
+   border: 1px solid rgb(158, 148, 148);
+   justify-content: center;
+   background-color: rgb(240, 218, 222);
+   border-radius: 20px;
+ 
+   
+  
+}
+.sidebar h6{
+    text-align: center;
+} */
+.sidebar{
+    display: flex;
+    position: absolute;
+    width: 25%;
+  /* margin-top: 200px; */
+    height: 100%;
+   z-index: 3;
+   margin-left: 10px;
+  
+   
+   
+}
+/* .side_search{
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+} */
+
+.side_search select{
+    border: 0px;
+    outline: none;
+    font-weight: 500;
+}
+.side_search {
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgb(151, 142, 142);
+    margin-top: 50px;
+    border-radius: 5px;
+    
+    
+}
+.side_search label{
+    font-size: 15px;
+    color: rgb(133, 127, 127);
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 6px;
+} 
+.sidebar .filter{
+    width: 250px;
+    height: 600px;
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.filter h4 {
+    margin: 10px;
+    text-align: center;
+
+}
+.filter p{
+    margin: 10px;
+    text-align: center;
+
+}
+.filter hr{
+    font-weight: 200;
+    width: 200px;
+    align-items: center;
+    margin-left: 20px;
+}
+.filter  .cate {
+    width: 250px;
+    margin-left: 10px;
+    outline: none;
+}
+ .cate select{
+    width: 100px;
+    outline: none;
+    margin-left: 10px;
+    border: 0px;
+    outline: none;
+    font-weight: 500;
+}
+.cate .serh{
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(136, 130, 130);
+    margin: 10px;
+    /* border-radius: 5px; */
+    border: none;
+    
+}
+.cate .serh input{
+    width: 202px;
+    height:32px ;
+    /* border: none; */
+   
+  
+}
+.cate hr{
+    font-weight: 200;
+    width: 200px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.gender li{
+    display: flex;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+ /* .remv Link{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 500
+} */
+ .remv .rmv1{
+    text-decoration: none;
+    color: rgb(129, 119, 119);
+    font-weight: 500
+
+ }
